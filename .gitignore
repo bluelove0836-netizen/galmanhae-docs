@@ -1,0 +1,41 @@
+﻿# ===== backup-safety (auto-added) =====
+# Secrets
+.env
+.env.*
+!.env.example
+!*.env.example
+!.env.local.template
+.env.local
+*_private.key
+*.pem
+.token_cache.json
+*token*.json
+*secretkey*
+*appkey*
+mTLS_인증서*/
+모의투자*.txt
+# Dependencies / build
+node_modules/
+.next/
+dist/
+build/
+release/
+out/
+.turbo/
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+# Cloudflare / Vercel
+.wrangler/
+.vercel/
+# Browser profiles
+chrome_profile/
+*_profile/
+# Caches / logs
+.price_cache/
+*.log
+# OS
+Thumbs.db
+.DS_Store
